@@ -13,6 +13,7 @@
 
 		<p>Name: ${ detail.name }</p>
 		<p>Calories: ${ detail.calories }</p>
+		<p>Extras:</p>
 
 		<ul>
 			<c:forEach items="${detail.extras}" var="extras">
